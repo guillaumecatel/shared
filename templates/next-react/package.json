@@ -1,0 +1,51 @@
+{
+  "name": "next-react",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prepare": "git init --initial-branch=main && husky install",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "eslint": "eslint .",
+    "eslint:fix": "eslint --fix .",
+    "stylelint": "stylelint '**/*.{css,scss}' --aei",
+    "stylelint:fix": "stylelint '**/*.{css,scss}' --fix --aei",
+    "test:unit": "jest --coverage",
+    "test:e2e": "echo \"Error: no test specified\" && exit 0",
+    "commitlint": "commitlint --edit $1"
+  },
+  "dependencies": {
+    "next": "12.1.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "@guillaumecatel/commitlint-config": "0.1.0",
+    "@guillaumecatel/eslint-config": "0.1.0",
+    "@guillaumecatel/eslint-config-jest": "0.1.0",
+    "@guillaumecatel/eslint-config-react": "0.1.0",
+    "@guillaumecatel/prettier-config": "0.1.0",
+    "@guillaumecatel/stylelint-config": "0.1.0",
+    "@guillaumecatel/stylelint-config-scss": "0.1.0",
+    "@guillaumecatel/stylelint-config-tailwindcss": "0.1.0",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^13.0.0",
+    "@types/node": "17.0.23",
+    "@types/react": "17.0.43",
+    "@types/react-dom": "17.0.14",
+    "autoprefixer": "^10.4.4",
+    "cssnano": "^5.1.7",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "postcss": "^8.4.12",
+    "prettier": "^2.6.1",
+    "sass": "1.49.10",
+    "stylelint": "^14.6.1",
+    "tailwindcss": "^3.0.23",
+    "ts-jest": "27.1.4",
+    "typescript": "4.6.3"
+  }
+}
