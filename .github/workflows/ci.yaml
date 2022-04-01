@@ -183,3 +183,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: deploy storybook on Github pages
+        run: |
+          pnpm build:storybook
+          pnpm deploy:storybook
