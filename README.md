@@ -1,4 +1,4 @@
-# Shared
+# guillaumecatel/shared
 
 [![ci][ci-badge]][ci-link]
 ![ts][ts-badge]
