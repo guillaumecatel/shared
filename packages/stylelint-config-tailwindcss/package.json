@@ -1,0 +1,13 @@
+{
+  "name": "@guillaumecatel/stylelint-config-tailwindcss",
+  "description": "A shareable Stylelint configuration for TailwindCSS",
+  "author": "Guillaume CATEL <hello@guillaumecatel.com> (https://guillaumecatel.com)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "stylelint",
+    "tailwindcss",
+    "stylelint-config-tailwindcss"
+  ]
+}

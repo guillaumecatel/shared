@@ -1,0 +1,15 @@
+{
+  "name": "@guillaumecatel/commitlint-config",
+  "description": "A shareable commitlint configuration",
+  "author": "Guillaume CATEL <hello@guillaumecatel.com> (https://guillaumecatel.com)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "commitlint",
+    "commitlint-config"
+  ],
+  "dependencies": {
+    "@commitlint/config-conventional": "^16.2.1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@guillaumecatel/eslint-config",
+  "description": "A shareable ESLint configuration",
+  "author": "Guillaume CATEL <hello@guillaumecatel.com> (https://guillaumecatel.com)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  }
+}

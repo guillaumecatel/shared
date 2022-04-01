@@ -1,0 +1,17 @@
+{
+  "name": "@guillaumecatel/eslint-config-jest",
+  "description": "A shareable ESLint configuration for Jest",
+  "author": "Guillaume CATEL <hello@guillaumecatel.com> (https://guillaumecatel.com)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "jest",
+    "eslint-config-jest"
+  ],
+  "dependencies": {
+    "eslint-plugin-jest": "^26.1.3",
+    "eslint-plugin-testing-library": "^5.2.0"
+  }
+}
