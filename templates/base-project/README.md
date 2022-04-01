@@ -5,8 +5,7 @@
 ## Installation
 
 ```bash
-# copy template
-npx degit guillaumecatel/shared/templates/base-project
+npx degit guillaumecatel/shared/templates/base-project <my-project-name>
 ```
 
 ## License
