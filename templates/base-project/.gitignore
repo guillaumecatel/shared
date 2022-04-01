@@ -1,5 +1,13 @@
 # DIST FOLDER
 dist
+build
+
+# Next.js
+.next
+out
+
+# vercel
+.vercel
 
 # CODE COVERAGE
 .nyc_output
@@ -66,6 +74,8 @@ jspm_packages
 build/Release
 .lock-wscript
 .node_repl_history
+/.pnp
+.pnp.js
 
 # PACKAGE MANAGER
 .npm
