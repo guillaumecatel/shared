@@ -21,6 +21,7 @@
     "react-dom": "18.0.0"
   },
   "devDependencies": {
+    "@guillaumecatel/css-reset": "0.1.0",
     "@guillaumecatel/commitlint-config": "0.1.0",
     "@guillaumecatel/eslint-config": "0.1.0",
     "@guillaumecatel/eslint-config-jest": "0.1.0",

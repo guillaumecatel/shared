@@ -148,6 +148,7 @@ importers:
   templates/next-react:
     specifiers:
       '@guillaumecatel/commitlint-config': 0.1.0
+      '@guillaumecatel/css-reset': 0.1.0
       '@guillaumecatel/eslint-config': 0.1.0
       '@guillaumecatel/eslint-config-jest': 0.1.0
       '@guillaumecatel/eslint-config-react': 0.1.0
@@ -180,6 +181,7 @@ importers:
       react-dom: 18.0.0_react@18.0.0
     devDependencies:
       '@guillaumecatel/commitlint-config': link:../../packages/commitlint-config
+      '@guillaumecatel/css-reset': link:../../packages/css-reset
       '@guillaumecatel/eslint-config': link:../../packages/eslint-config
       '@guillaumecatel/eslint-config-jest': link:../../packages/eslint-config-jest
       '@guillaumecatel/eslint-config-react': link:../../packages/eslint-config-react
@@ -4392,8 +4394,8 @@ packages:
   /@storybook/theming/6.4.20_react-dom@18.0.0+react@18.0.0:
     resolution: {integrity: sha512-sVGpRYyJHbdme8ozd9AT70VZ24ug6eypAKT7P+cfzImlYJABjmcfaJ+V4rlavoJF1sGnmauJmGoOf40b1U5JZQ==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || 18 || 18
-      react-dom: ^16.8.0 || ^17.0.0 || 18 || 18
+      react: ^16.8.0 || ^17.0.0 || 18 || 18 || 18 || 18 || 18 || 18 || 18
+      react-dom: ^16.8.0 || ^17.0.0 || 18 || 18 || 18 || 18 || 18 || 18 || 18
     dependencies:
       '@emotion/core': 10.3.1_react@18.0.0
       '@emotion/is-prop-valid': 0.8.8
