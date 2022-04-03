@@ -5,7 +5,7 @@ storybook-static
 build
 
 # NEXT.JS
-.next
+.next/
 out
 
 # VERCEL
