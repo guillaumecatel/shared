@@ -2,6 +2,14 @@
 dist
 dist-ssr
 storybook-static
+build
+
+# NEXT.JS
+.next/
+out
+
+# VERCEL
+.vercel
 
 # CODE COVERAGE
 .nyc_output
@@ -9,7 +17,6 @@ storybook-static
 lib-cov
 # Coverage directory used by tools like istanbul
 coverage
-
 e2e/videos/
 e2e/screenshots/
 
@@ -68,6 +75,8 @@ jspm_packages
 build/Release
 .lock-wscript
 .node_repl_history
+/.pnp
+.pnp.js
 
 # PACKAGE MANAGER
 .npm

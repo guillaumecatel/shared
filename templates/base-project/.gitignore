@@ -1,12 +1,14 @@
 # DIST FOLDER
 dist
+dist-ssr
+storybook-static
 build
 
-# Next.js
-.next
+# NEXT.JS
+.next/
 out
 
-# vercel
+# VERCEL
 .vercel
 
 # CODE COVERAGE
@@ -15,7 +17,6 @@ out
 lib-cov
 # Coverage directory used by tools like istanbul
 coverage
-
 e2e/videos/
 e2e/screenshots/
 
