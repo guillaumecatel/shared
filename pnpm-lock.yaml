@@ -147,6 +147,8 @@ importers:
 
   templates/next-react:
     specifiers:
+      '@commitlint/cli': ^16.2.3
+      '@commitlint/cz-commitlint': ^16.2.3
       '@guillaumecatel/commitlint-config': 0.1.0
       '@guillaumecatel/css-reset': 0.1.0
       '@guillaumecatel/eslint-config': 0.1.0
@@ -162,6 +164,7 @@ importers:
       '@types/react': 17.0.43
       '@types/react-dom': 17.0.14
       autoprefixer: ^10.4.4
+      commitizen: ^4.2.4
       cssnano: ^5.1.7
       eslint: 8.12.0
       husky: ^7.0.4
@@ -180,6 +183,8 @@ importers:
       react: 18.0.0
       react-dom: 18.0.0_react@18.0.0
     devDependencies:
+      '@commitlint/cli': 16.2.3
+      '@commitlint/cz-commitlint': 16.2.3_commitizen@4.2.4
       '@guillaumecatel/commitlint-config': link:../../packages/commitlint-config
       '@guillaumecatel/css-reset': link:../../packages/css-reset
       '@guillaumecatel/eslint-config': link:../../packages/eslint-config
@@ -195,6 +200,7 @@ importers:
       '@types/react': 17.0.43
       '@types/react-dom': 17.0.14
       autoprefixer: 10.4.4_postcss@8.4.12
+      commitizen: 4.2.4
       cssnano: 5.1.7_postcss@8.4.12
       eslint: 8.12.0
       husky: 7.0.4
@@ -3855,8 +3861,8 @@ packages:
   /@storybook/core-common/6.4.20_b8dd0c008ac03041c08baa89f5b2d9d1:
     resolution: {integrity: sha512-+jSPpMwWvoyDufLKhYslF9N2y/5gqbgE/bPnqy6TZhC1ia+Lr5S4uK60zAT1OpB6kgXWDbo203NP148uMxJ3VA==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || 18 || 18
-      react-dom: ^16.8.0 || ^17.0.0 || 18 || 18
+      react: ^16.8.0 || ^17.0.0 || 18 || 18 || 18
+      react-dom: ^16.8.0 || ^17.0.0 || 18 || 18 || 18
       typescript: '*'
     peerDependenciesMeta:
       typescript:
@@ -4356,8 +4362,8 @@ packages:
   /@storybook/store/6.4.20_react-dom@18.0.0+react@18.0.0:
     resolution: {integrity: sha512-TXrjlBnXgarqZ+Z8Apg8UVkHbKHRkBJmsrlTRucwf8N9mE6EQxRfpqvghcQW3yj2NR1QFdtn13WKF+ZBeHAqgQ==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || 18
-      react-dom: ^16.8.0 || ^17.0.0 || 18
+      react: ^16.8.0 || ^17.0.0 || 18 || 18 || 18
+      react-dom: ^16.8.0 || ^17.0.0 || 18 || 18 || 18
     dependencies:
       '@storybook/addons': 6.4.20_react-dom@18.0.0+react@18.0.0
       '@storybook/client-logger': 6.4.20
@@ -4394,8 +4400,8 @@ packages:
   /@storybook/theming/6.4.20_react-dom@18.0.0+react@18.0.0:
     resolution: {integrity: sha512-sVGpRYyJHbdme8ozd9AT70VZ24ug6eypAKT7P+cfzImlYJABjmcfaJ+V4rlavoJF1sGnmauJmGoOf40b1U5JZQ==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || 18 || 18 || 18 || 18 || 18 || 18 || 18
-      react-dom: ^16.8.0 || ^17.0.0 || 18 || 18 || 18 || 18 || 18 || 18 || 18
+      react: ^16.8.0 || ^17.0.0 || 18 || 18
+      react-dom: ^16.8.0 || ^17.0.0 || 18 || 18
     dependencies:
       '@emotion/core': 10.3.1_react@18.0.0
       '@emotion/is-prop-valid': 0.8.8
