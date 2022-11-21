@@ -83,7 +83,7 @@ jobs:
 
       - name: build packages
         run: |
-          pnpm build:packages
+          pnpm build
 
       - name: run test suite
         run: |
