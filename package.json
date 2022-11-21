@@ -22,7 +22,7 @@
     "stylelint": "stylelint '**/*.{css,scss}' --aei",
     "stylelint:fix": "pnpm stylelint --fix",
     "test": "pnpm test:unit && pnpm test:e2e",
-    "test:unit": "pnpm test:unit -r --if-present",
+    "test:unit": "pnpm -r --if-present test:unit",
     "test:e2e": "echo \"Error: no test specified\" && exit 0",
     "cz": "git-cz",
     "changeset": "changeset",
