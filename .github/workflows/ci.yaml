@@ -171,7 +171,7 @@ jobs:
 
       - name: build packages
         run: |
-          pnpm build:packages
+          pnpm build
 
       - name: create and publish versions
         uses: changesets/action@v1
