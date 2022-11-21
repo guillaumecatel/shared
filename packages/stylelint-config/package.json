@@ -2,7 +2,7 @@
   "name": "@guillaumecatel/stylelint-config",
   "description": "A shareable Stylelint configuration",
   "author": "Guillaume CATEL <hello@guillaumecatel.com> (https://guillaumecatel.com)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "index.js",
   "keywords": [
