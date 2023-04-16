@@ -2,7 +2,7 @@
   "name": "@guillaumecatel/eslint-config",
   "description": "A shareable ESLint configuration",
   "author": "Guillaume CATEL <hello@guillaumecatel.com> (https://guillaumecatel.com)",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "license": "MIT",
   "main": "index.js",
   "keywords": [

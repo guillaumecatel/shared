@@ -1,5 +1,11 @@
 # @guillaumecatel/commitlint-config
 
+## 0.2.0
+
+### Minor Changes
+
+- 03bec8f: update packages dependencies
+
 ## 0.1.1
 
 ### Patch Changes
