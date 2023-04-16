@@ -12,8 +12,8 @@
     "stylelint-config-scss"
   ],
   "dependencies": {
-    "postcss": "^8.4.19",
-    "postcss-scss": "^4.0.5",
-    "stylelint-scss": "^4.3.0"
+    "postcss": "^8.4.21",
+    "postcss-scss": "^4.0.6",
+    "stylelint-scss": "^4.6.0"
   }
 }

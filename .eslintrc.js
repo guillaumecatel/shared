@@ -1,8 +1,3 @@
 module.exports = {
-  extends: [
-    '@guillaumecatel/eslint-config',
-    '@guillaumecatel/eslint-config-react',
-    '@guillaumecatel/eslint-config-jest',
-    'plugin:storybook/recommended'
-  ]
+  extends: ['@guillaumecatel/eslint-config']
 }

@@ -8,36 +8,22 @@
   "scripts": {
     "prepare": "husky install",
     "preinstall": "npx -y only-allow pnpm",
-    "postinstall": "pnpm -r --if-present build",
-    "clear": "rimraf **/{node_modules,coverage,dist,storybook-static}",
-    "build": "pnpm -r --if-present build",
-    "dev": "pnpm -r --if-present --parallel --aggregate-output dev​",
-    "build:storybook": "build-storybook",
-    "dev:storybook": "start-storybook -p 6006",
-    "deploy:storybook": "gh-pages -d storybook-static",
     "lint": "pnpm eslint && pnpm stylelint",
     "lint:fix": "pnpm eslint --fix && pnpm stylelint --fix",
     "eslint": "eslint .",
     "eslint:fix": "pnpm eslint . --fix",
     "stylelint": "stylelint '**/*.{css,scss}' --aei",
     "stylelint:fix": "pnpm stylelint --fix",
-    "test": "pnpm test:unit && pnpm test:e2e",
-    "test:unit": "pnpm -r --if-present test:unit",
-    "test:e2e": "echo \"Error: no test specified\" && exit 0",
     "cz": "git-cz",
     "changeset": "changeset",
     "ci:version": "changeset version",
     "ci:release": "changeset publish",
     "ci:security": "pnpm audit --audit-level=high"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^ 18.2.0"
-  },
   "devDependencies": {
-    "@changesets/cli": "^2.25.2",
-    "@commitlint/cli": "^17.2.0",
-    "@commitlint/cz-commitlint": "^17.2.0",
+    "@changesets/cli": "^2.26.1",
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/cz-commitlint": "^17.5.0",
     "@guillaumecatel/commitlint-config": "workspace:*",
     "@guillaumecatel/eslint-config": "workspace:*",
     "@guillaumecatel/eslint-config-jest": "workspace:*",
@@ -46,31 +32,12 @@
     "@guillaumecatel/stylelint-config": "workspace:*",
     "@guillaumecatel/stylelint-config-scss": "workspace:*",
     "@guillaumecatel/stylelint-config-tailwindcss": "workspace:*",
-    "@storybook/addon-actions": "^6.5.13",
-    "@storybook/addon-essentials": "^6.5.13",
-    "@storybook/addon-interactions": "^6.5.13",
-    "@storybook/addon-links": "^6.5.13",
-    "@storybook/addon-postcss": "^2.0.0",
-    "@storybook/react": "^6.5.13",
-    "@storybook/testing-library": "^0.0.13",
-    "@types/jest": "^29.2.3",
-    "@types/node": "^18.11.9",
-    "@types/react": "^18.0.25",
-    "@types/react-dom": "^18.0.9",
-    "autoprefixer": "^10.4.13",
-    "commitizen": "^4.2.5",
-    "eslint": "^8.28.0",
-    "eslint-plugin-storybook": "^0.6.7",
-    "gh-pages": "^4.0.0",
-    "husky": "^8.0.2",
-    "jest": "^29.3.1",
-    "postcss": "^8.4.19",
-    "postcss-flexbugs-fixes": "^5.0.2",
-    "prettier": "^2.7.1",
-    "rimraf": "^3.0.2",
-    "stylelint": "^14.15.0",
-    "ts-jest": "29.0.3",
-    "typescript": "^4.9.3"
+    "@types/node": "^18.15.11",
+    "commitizen": "^4.3.0",
+    "eslint": "^8.38.0",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7",
+    "stylelint": "^15.5.0"
   },
   "config": {
     "commitizen": {
@@ -80,24 +47,5 @@
   "engines": {
     "node": ">= 16.1.0",
     "pnpm": ">= 6.9.0"
-  },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "@babel/core",
-        "babel-loader",
-        "inquirer",
-        "webpack"
-      ],
-      "allowedVersions": {
-        "react": "18",
-        "react-dom": "18"
-      }
-    },
-    "overrides": {
-      "trim@<0.0.3": ">=0.0.3",
-      "minimist@<=1.2.5": ">=1.2.6",
-      "glob-parent@<5.1.2": ">=5.1.2"
-    }
   }
 }
